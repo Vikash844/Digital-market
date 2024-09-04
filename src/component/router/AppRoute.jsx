@@ -1,11 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
-import About from '../pages/About'
+import Home from '../pages/home/Home'
+import About from '../pages/about/About'
+import Services from '../pages/services/Services'
+import Contact from '../pages/contact/Contact'
 import NotFound from '../pages/NotFound'
-import Services from '../pages/Services'
-import Blog from '../pages/Blog'
-import Contact from '../pages/Contact'
 
 const AppRoute = () => {
     return (
@@ -19,9 +18,6 @@ const AppRoute = () => {
 
             {/* Services page Route */}
             <Route path='services' element={<Services />} />
-
-            {/* Services page Route */}
-            <Route path='blog' element={<Blog />} />
 
             {/* Services page Route */}
             <Route path='contact-us' element={<Contact />} />

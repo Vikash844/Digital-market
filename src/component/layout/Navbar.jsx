@@ -10,7 +10,7 @@ const Navbar = () => {
                         <nav className="main-nav">
                             {/* <!-- ***** Logo Start ***** --> */}
                             <a href="index.html" className="logo">
-                                <h4>logo<span></span></h4>
+                                <h4>Click<span>Genius</span></h4>
                             </a>
                             {/* <!-- ***** Logo End ***** --> */}
                             {/* <!-- ***** Menu Start ***** --> */}
@@ -18,10 +18,9 @@ const Navbar = () => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about-us">About Us</Link></li>
                                 <li><Link to="/services">Services</Link></li>
-                                <li><Link to="/blog">Blog</Link></li>
                                 <li><div className="main-red-button"><Link to="/contact-us">Contact Now</Link></div></li>
                             </ul>
-                            <a className='menu-trigger' >
+                            <a href='/' className='menu-trigger' >
                                 <span>Menu</span>
                             </a>
                             {/* <!-- ***** Menu End ***** --> */}
