@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className="footer-section bg-dark text-white">
                 <div className="container">
                     <div className="row py-5">
-                        <div className="col-sm-4">
+                        <div className="col-sm-3">
                             <div className="logo mb-4">
                                 <img src="..." alt="logo" className="img-fluid" />
                             </div>
@@ -29,22 +29,15 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-8">
-                            <div className="row links-wrap">
+                        <div className="col-sm-6">
+                            <div className="row links-wrap justify-content-around">
                                 <div className="col-6 col-sm-6 col-md-3">
-                                    <h5 className="mb-3">About Us</h5>
+                                    <h5 className="mb-3">Links</h5>
                                     <ul className="list-unstyled">
-                                        <li><Link to="/about-us">Our Story</Link></li>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/about-us">About</Link></li>
                                         <li><Link to="/services">Our Services</Link></li>
                                         <li><Link to="/contact-us">Get in Touch</Link></li>
-                                    </ul>
-                                </div>
-                                <div className="col-6 col-sm-6 col-md-3">
-                                    <h5 className="mb-3">Quick Links</h5>
-                                    <ul className="list-unstyled">
-                                        <li><Link to="/faq">FAQs</Link></li>
-                                        <li><Link to="/terms">Terms & Conditions</Link></li>
-                                        <li><Link to="/privacy">Privacy Policy</Link></li>
                                     </ul>
                                 </div>
                                 <div className="col-6 col-sm-6 col-md-3">
@@ -55,15 +48,14 @@ const Footer = () => {
                                         <li><Link to="/feedback">Feedback</Link></li>
                                     </ul>
                                 </div>
-                                <div className="col-6 col-sm-6 col-md-3">
-                                    <h5 className="mb-3">Social Media</h5>
-                                    <ul className="list-unstyled">
-                                        <li><a href="/" target="_blank">Facebook</a></li>
-                                        <li><a href="/" target="_blank">Twitter</a></li>
-                                        <li><a href="/" target="_blank">Instagram</a></li>
-                                    </ul>
-                                </div>
                             </div>
+                        </div>
+                        <div className="col-sm-3">
+                            <ul>
+                                <li><span> <i class="fa-solid fa-location-dot text-white fa-lg m-3"></i></span> <span className='text-light'>location</span></li>
+                                <li><span>   <i class="fa-regular fa-envelope text-white fa-lg m-3"></i></span> <span className='text-light'>email@gmail.com</span></li>
+                                <li><span>    <i class="fa-solid fa-phone text-white fa-lg m-3"></i></span> <span className='text-light'>+91 1234567890</span></li>
+                            </ul>
                         </div>
                     </div>
                     <div className="row">
