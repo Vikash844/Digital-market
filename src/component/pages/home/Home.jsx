@@ -50,7 +50,7 @@ const Home = () => {
                             </p>
                         </div>
                         <div className='col-lg-3'>
-                            <img src='' alt="image" />
+                            <img src='/assets/images/welcome.jpeg' alt="welcome" />
                         </div>
                     </div>
                     <OurSevices />
@@ -68,7 +68,7 @@ const Home = () => {
                             </p>
                         </div>
                         <div className='col-lg-3'>
-                            <img src='' alt="image" />
+                            <img src='/assets/images/img2.jpeg' alt="digital" />
                         </div>
                     </div>
                 </div>
