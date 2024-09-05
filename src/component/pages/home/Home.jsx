@@ -73,6 +73,34 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div class="container text-center mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="icon-circle">
+                            <img src="https://via.placeholder.com/50x50.png?text=Icon1" alt="Icon 1" />
+                        </div>
+                        <h5 class="mt-3">Get More Leads</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="icon-circle">
+                            <img src="https://via.placeholder.com/50x50.png?text=Icon2" alt="Icon 2" />
+                        </div>
+                        <h5 class="mt-3">Make More Sales</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="icon-circle">
+                            <img src="https://via.placeholder.com/50x50.png?text=Icon3" alt="Icon 3" />
+                        </div>
+                        <h5 class="mt-3">Build Brand Awareness</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="icon-circle">
+                            <img src="https://via.placeholder.com/50x50.png?text=Icon4" alt="Icon 4" />
+                        </div>
+                        <h5 class="mt-3">Upskill Your Team</h5>
+                    </div>
+                </div>
+            </div>
 
         </>
     )

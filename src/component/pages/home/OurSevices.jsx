@@ -40,7 +40,7 @@ const OurSevices = () => {
                             <div className="showed-content">
                                 <h4>{item.content}</h4>
                                 <p>{item.para}</p>
-                                <Link className="btn btn-info text-light mt-2" to="/services">
+                                <Link className="btn btn-info text-light mt-3" to="/services">
                                     Read More
                                 </Link>
                             </div>
