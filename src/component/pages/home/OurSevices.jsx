@@ -6,22 +6,26 @@ const OurSevices = () => {
         {
             id: 1,
             content: "Social Media Marketing",
-            para: "Build a Strong Social Presence"
+            para: "Build a Strong Social Presence",
+            img: "/assets/images/seo.jpg"
         },
         {
             id: 2,
             content: "Search Engine Optimization",
             para: "Boost Your Online Visibility",
+            img: "/assets/images/socail.jfif"
         },
         {
             id: 3,
             content: "Content Creation",
-            para: "Engage and Inspire Your Audience"
+            para: "Engage and Inspire Your Audience",
+            img: "/assets/images/content-creation.jpg"
         },
         {
             id: 1,
             content: "Web Development",
-            para: "Build Your Digital Home and boost website"
+            para: "Build Your Digital Home and boost website",
+            img: "/assets/images/web.jpeg"
         }
     ]
     return (
@@ -37,7 +41,7 @@ const OurSevices = () => {
                 <div className="row g-3">
                     {items.map((item, index) => (
                         <div className="col-lg-3 col-sm-6" key={index}>
-                            <div className="showed-content">
+                            <div className="showed-content" style={{ backgroundImage: `url(${item.img})` }}>
                                 <h4>{item.content}</h4>
                                 <p>{item.para}</p>
                                 <Link className="btn btn-info text-light mt-3" to="/services">

@@ -34,7 +34,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6">
+                        <div className="col-sm-5">
                             <div className="row links-wrap justify-content-around">
                                 <div className="col-6 col-sm-6 col-md-3">
                                     <h5 className="mb-3">Links</h5>
@@ -55,11 +55,11 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3">
+                        <div className="col-sm-4">
                             <ul>
-                                <li><span> <i class="fa-solid fa-location-dot text-white fa-lg m-3"></i></span> <span className='text-light'>location</span></li>
-                                <li><span>   <i class="fa-regular fa-envelope text-white fa-lg m-3"></i></span> <span className='text-light'>email@gmail.com</span></li>
-                                <li><span> <i class="fa-solid fa-phone text-white fa-lg m-3"></i></span> <span className='text-light'>+91 1234567890</span></li>
+                                <li><span> <i class="fa-solid fa-location-dot text-white fa-lg m-3"></i></span> <span className='text-light'>Badarpur New Delhi pin - 110044</span></li>
+                                <li><span><i class="fa-regular fa-envelope text-white fa-lg m-3"></i></span> <span className='text-light'>clickgenius.meta@gmail.com</span></li>
+                                <li><span> <i class="fa-solid fa-phone text-white fa-lg m-3"></i></span> <span className='text-light'>+91 8920056302</span></li>
                             </ul>
                         </div>
                     </div>
