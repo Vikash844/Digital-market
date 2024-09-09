@@ -89,7 +89,6 @@ h5 {
 .showed-content a {
   position: relative;
   z-index:  1;
-  /* Ensures text appears above the overlay */
 }
 .btn{
   background-color: #fbd00e;
@@ -99,4 +98,11 @@ h5 {
   background-color: #fbd00e; 
   color: white; 
   border-radius: 10%;
+}
+.icon-circle {
+  overflow: hidden; 
+}
+
+.icon-circle img {
+  object-fit: cover;
 }

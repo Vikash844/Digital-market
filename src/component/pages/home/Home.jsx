@@ -64,31 +64,31 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div class="container text-center mt-5">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="icon-circle">
-                            <img src="https://via.placeholder.com/50x50.png?text=Icon1" alt="Icon 1" />
+            <div className="container text-center mt-5">
+                <div className="row">
+                    <div className="col-lg-3 col-md-6 mb-4">
+                        <div className="icon-circle">
+                            <img src="/assets/images/lead.png" alt="Icon 1" className='img-fluid w-100 h-100' />
                         </div>
-                        <h5 class="mt-3">Get More Leads</h5>
+                        <h5 className="mt-3">Get More Leads</h5>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="icon-circle">
-                            <img src="https://via.placeholder.com/50x50.png?text=Icon2" alt="Icon 2" />
+                    <div className="col-lg-3 col-md-6 mb-4">
+                        <div className="icon-circle">
+                            <img src="/assets/images/sales.png" alt="Icon 2" className='img-fluid w-100 h-100' />
                         </div>
-                        <h5 class="mt-3">Make More Sales</h5>
+                        <h5 className="mt-3">Make More Sales</h5>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="icon-circle">
-                            <img src="https://via.placeholder.com/50x50.png?text=Icon3" alt="Icon 3" />
+                    <div className="col-lg-3 col-md-6 mb-4">
+                        <div className="icon-circle">
+                            <img src="/assets/images/brand-awareness.png" className='img-fluid w-100 h-100' alt="Icon 3" />
                         </div>
-                        <h5 class="mt-3">Build Brand Awareness</h5>
+                        <h5 className="mt-3">Build Brand Awareness</h5>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <div class="icon-circle">
-                            <img src="https://via.placeholder.com/50x50.png?text=Icon4" alt="Icon 4" />
+                    <div className="col-lg-3 col-md-6 mb-4">
+                        <div className="icon-circle">
+                            <img src="/assets/images/website-traffic.png" alt="Icon 4" className='img-fluid w-100 h-100' />
                         </div>
-                        <h5 class="mt-3">Upskill Your Team</h5>
+                        <h5 className="mt-3">Increase Website Traffic</h5>
                     </div>
                 </div>
             </div>
