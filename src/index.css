@@ -91,3 +91,12 @@ h5 {
   z-index: 2;
   /* Ensures text appears above the overlay */
 }
+.btn{
+  background-color: #fbd00e;
+  color: #000 !important;
+}
+.nav-link {
+  background-color: #fbd00e; 
+  color: white; 
+  border-radius: 10%;
+}

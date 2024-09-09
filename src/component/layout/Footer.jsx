@@ -8,26 +8,26 @@ const Footer = () => {
                 <div className="container">
                     <div className="row py-5">
                         <div className="col-sm-3">
-                            <div className="logo mb-4">
-                            <img src="/assets/images/logo.png" alt="logo" className="w-75 img-fluid" />
+                            <div className="logo">
+                            <img src="/assets/images/white-logo.png" alt="logo" className="w-75 h-25 img-fluid" />
                             </div>
                             <div className="d-flex">
-                                <div className="m-2">
+                                <div className="ms-4">
                                     <a href="/" target="_blank">
                                         <i className="fa-brands fa-x-twitter text-white fa-lg"></i>
                                     </a>
                                 </div>
-                                <div className="m-2">
+                                <div className="ms-4">
                                     <a href="/" target="_blank">
                                         <i className="fa-brands fa-facebook text-white fa-lg"></i>
                                     </a>
                                 </div>
-                                <div className="m-2">
+                                <div className="ms-4">
                                     <a href="/" target="_blank">
                                         <i className="fa-brands fa-instagram text-white fa-lg"></i>
                                     </a>
                                 </div>
-                                <div className="m-2">
+                                <div className="ms-4">
                                     <a href="/" target="_blank">
                                         <i className="fa-brands fa-linkedin text-white fa-lg"></i>
                                     </a>

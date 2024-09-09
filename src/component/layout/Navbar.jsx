@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <header className="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container m-3">
+            <div className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container justify-content-around">
                     {/* Logo */}
-                    <div className="navbar-brand ms-5">
+                    <div className="navbar-brand">
                         <Link className="logo" to="/">
-                            <img src="/assets/images/logo.png" alt="logo" className="w-75 img-fluid" />
+                            <img src="/assets/images/logo.png" alt="logo" className="w-200 h-75 img-fluid"/>
                         </Link>
                     </div>
 
@@ -30,13 +30,13 @@ const Navbar = () => {
                             <li className="nav-item me-2">
                                 <Link className="nav-link" to="/services">Services</Link>
                             </li>
-                            <li className="nav-item me-2">
-                                <Link className="btn btn-danger" to="/contact-us">Contact Now</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/contact-us">Contact Now</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
         </header>
     );
 }

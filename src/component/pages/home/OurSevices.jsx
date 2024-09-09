@@ -44,7 +44,7 @@ const OurSevices = () => {
                             <div className="showed-content" style={{ backgroundImage: `url(${item.img})` }}>
                                 <h4 className='text-light'>{item.content}</h4>
                                 <p className='text-light'>{item.para}</p>
-                                <Link className="btn btn-info text-light mt-3" to="/services">
+                                <Link className="btn text-light mt-3" to="/services">
                                     Read More
                                 </Link>
                             </div>
@@ -52,7 +52,7 @@ const OurSevices = () => {
                     ))}
                 </div>
                 <div className="text-center my-3">
-                    <Link to="/services" className="btn btn-info text-light mt-2">More Services</Link>
+                    <Link to="/services" className="btn text-light mt-2">More Services</Link>
                 </div>
 
             </div>
