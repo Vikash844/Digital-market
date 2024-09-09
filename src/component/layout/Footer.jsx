@@ -57,7 +57,7 @@ const Footer = () => {
                         </div>
                         <div className="col-sm-4">
                             <ul>
-                                <li><span> <i class="fa-solid fa-location-dot text-white fa-lg m-3"></i></span> <span className='text-light'>Badarpur New Delhi pin - 110044</span></li>
+                                <li><span> <i class="fa-solid fa-location-dot text-white fa-lg m-3"></i></span> <span className='text-light'>Badarpur New Delhi</span></li>
                                 <li><span><i class="fa-regular fa-envelope text-white fa-lg m-3"></i></span> <span className='text-light'>clickgenius.meta@gmail.com</span></li>
                                 <li><span> <i class="fa-solid fa-phone text-white fa-lg m-3"></i></span> <span className='text-light'>+91 8920056302</span></li>
                             </ul>

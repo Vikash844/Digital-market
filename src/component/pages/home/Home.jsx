@@ -11,7 +11,7 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-lg-6 align-self-center">
                                     <div className="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                                        <h6>Welcome to Click Genius</h6>
+                                        <h5 className='fs-1'>Welcome to Click Genius</h5>
                                         <h2>We Make <em>Digital Ideas</em> &amp; <span>SEO</span> Marketing</h2>
                                     </div>
                                 </div>
