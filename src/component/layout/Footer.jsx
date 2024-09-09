@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="row py-5">
                         <div className="col-sm-3">
                             <div className="logo mb-4">
-                                <img src="..." alt="logo" className="img-fluid" />
+                            <img src="/assets/images/logo.png" alt="logo" className="w-75 img-fluid" />
                             </div>
                             <div className="d-flex">
                                 <div className="m-2">

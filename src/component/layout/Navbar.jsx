@@ -7,11 +7,11 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container m-3">
                     {/* Logo */}
-                  <div className='navbar-brand ms-5'>
-                  <Link className="logo" to="/">
-                        <h4>Click<span>Genius</span></h4>
-                    </Link>
-                  </div>
+                    <div className="navbar-brand ms-5">
+                        <Link className="logo" to="/">
+                            <img src="/assets/images/logo.png" alt="logo" className="w-75 img-fluid" />
+                        </Link>
+                    </div>
 
                     {/* Hamburger Menu Button */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
