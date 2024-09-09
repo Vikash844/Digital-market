@@ -8,10 +8,12 @@
   justify-content: center;
   margin: 0 auto;
 }
+
 .icon-circle img {
   width: 50px;
   height: 50px;
 }
+
 .footer-section {
   padding: 50px 0;
 }
@@ -54,7 +56,8 @@ h5 {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.showed-content{
+
+.showed-content {
   height: 100%;
   width: 100%;
 }
@@ -65,4 +68,26 @@ h5 {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+}
+
+.showed-content::before {
+  content: '';
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black with 50% opacity */
+  z-index: 2;
+  /* Ensures the overlay is on top */
+}
+
+.showed-content h4,
+.showed-content p,
+.showed-content a {
+  position: relative;
+  z-index: 2;
+  /* Ensures text appears above the overlay */
 }

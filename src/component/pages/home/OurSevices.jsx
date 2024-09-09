@@ -42,8 +42,8 @@ const OurSevices = () => {
                     {items.map((item, index) => (
                         <div className="col-lg-3 col-sm-6" key={index}>
                             <div className="showed-content" style={{ backgroundImage: `url(${item.img})` }}>
-                                <h4>{item.content}</h4>
-                                <p>{item.para}</p>
+                                <h4 className='text-light'>{item.content}</h4>
+                                <p className='text-light'>{item.para}</p>
                                 <Link className="btn btn-info text-light mt-3" to="/services">
                                     Read More
                                 </Link>
