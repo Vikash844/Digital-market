@@ -263,7 +263,7 @@ header
 
 .header-area {
   background-color: #fafafa;
-  position: absolute;
+  position: sticky;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -835,8 +835,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  position: relative;
+  padding-top: 50px;
   overflow: hidden;
 }
 

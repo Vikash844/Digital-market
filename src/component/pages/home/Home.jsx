@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="our-portfolio section mb-5">
+            <div className="our-portfolio section">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
