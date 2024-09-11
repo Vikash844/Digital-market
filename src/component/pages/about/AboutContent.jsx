@@ -9,7 +9,6 @@ const AboutContent = () => {
                         <div className="col-lg-6 offset-lg-3">
                             <div className="section-heading  wow bounceIn my-5" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <h2 className='mb-5 text-center'>Company <span>overView</span> <hr /></h2>
-
                                 <h2>About <span>us</span></h2>
                             </div>
                         </div>
