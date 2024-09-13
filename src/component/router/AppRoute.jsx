@@ -5,6 +5,7 @@ import About from '../pages/about/About'
 import Services from '../pages/services/Services'
 import Contact from '../pages/contact/Contact'
 import NotFound from '../pages/NotFound'
+import Seo from '../pages/services/servicesPage/Seo'
 
 const AppRoute = () => {
     return (
@@ -18,6 +19,7 @@ const AppRoute = () => {
 
             {/* Services page Route */}
             <Route path='services' element={<Services />} />
+            <Route path='seo' element={<Seo />} />
 
             {/* Services page Route */}
             <Route path='contact-us' element={<Contact />} />

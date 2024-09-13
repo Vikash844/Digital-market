@@ -9,7 +9,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="navbar-brand">
                         <Link className="logo" to="/">
-                            <img src="/assets/images/logo.png" alt="logo" className="w-200 h-75 img-fluid"/>
+                            <img src="/assets/images/logo.png" alt="Company Logo" className="w-200 h-75 img-fluid" />
                         </Link>
                     </div>
 
@@ -27,9 +27,18 @@ const Navbar = () => {
                             <li className="nav-item me-2">
                                 <Link className="nav-link" to="/about-us">About Us</Link>
                             </li>
-                            <li className="nav-item me-2">
-                                <Link className="nav-link" to="/services">Services</Link>
+
+                            {/* Dropdown for Services */}
+                            <li className="nav-item dropdown me-2">
+                                <Link className="nav-link dropdown-toggle" to="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </Link>
+                                <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
+                                    <li><Link className="dropdown-item" to="/">SEO Marketing</Link></li>
+                                    {/* Add more items here if needed */}
+                                </ul>
                             </li>
+
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact-us">Contact Now</Link>
                             </li>
