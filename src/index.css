@@ -37,19 +37,6 @@
   margin: 0;
 }
 
-.links-wrap ul li {
-  margin-bottom: 10px;
-}
-
-.links-wrap ul li a {
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.links-wrap ul li a:hover {
-  color: #ccc;
-}
 
 h5 {
   font-size: 18px;
@@ -109,4 +96,39 @@ h5 {
 .whowecontent p span{
   font-size: 30px;
   font-weight: 600;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: whitesmoke;
+}
+
+.navbar-nav li a {
+  color: whitesmoke;
+}
+
+.navbar-nav li a.active {
+  font-weight: bold;
+}
+
+.navbar-nav li {
+  margin-right: 20px;
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-collapse {
+  transition: height 0.5s ease;
+}
+
+.navbar-collapse.show {
+  height: auto;
 }
