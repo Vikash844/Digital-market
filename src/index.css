@@ -132,3 +132,8 @@ h5 {
 .navbar-collapse.show {
   height: auto;
 }
+.dropdown-menu {
+  max-height: 300px; 
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}

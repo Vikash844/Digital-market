@@ -29,20 +29,21 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown mx-2">
                 <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
-                <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item text-black" to="/">SEO Marketing</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Content Writing</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Social Media Marketing</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Content Creation</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Web Development</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Logo Creation</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Influencer Marketing</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Analytics & Reporting</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Email Marketing</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">PPC Marketing</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Shopify Store Creation & Management</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Conversion Rate Optimization (CRO)</Link></li>
-                  <li><Link className="dropdown-item text-black" to="/">Online Reputation Management (ORM)</Link></li>
+                <ul className="dropdown-menu dropdown-menu-lg-end">
+                  <li className="dropdown-header">Digital Marketing Services</li>
+                  <li><Link className="dropdown-item text-black" to="/seo">SEO Marketing</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/content-writing">Content Writing</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/social-media">Social Media Marketing</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/content-creation">Content Creation</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/web-devlopment">Web Development</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/logo-creation">Logo Creation</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/influncer">Influencer Marketing</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/analytics">Analytics & Reporting</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/email-marketing">Email Marketing</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/ppc-marketing">PPC Marketing</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/shopify-store">Shopify Store Creation & Management</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/conversion">Conversion Rate Optimization (CRO)</Link></li>
+                  <li><Link className="dropdown-item text-black" to="/reputation-management">Online Reputation Management (ORM)</Link></li>
                 </ul>
               </li>
               <li className="nav-item mx-2">
