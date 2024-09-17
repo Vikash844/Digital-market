@@ -15,7 +15,7 @@ const Services = () => {
           </div>
           <div className='row justify-content-around mt-3'>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/SEO.png' alt="welcome" />
             </div>
             <div className='col-lg-7'>
               <h2 className='mb-2'>SEO Marketing:</h2>
@@ -34,7 +34,7 @@ const Services = () => {
               </p>
             </div>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/CW.png' alt="welcome" />
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Services = () => {
         <div className="container-fulid mt-3">
           <div className='row justify-content-around mt-3'>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/SMM.png' alt="welcome" />
             </div>
             <div className='col-lg-7'>
               <h2 className='mb-2'>Social Media Marketing:</h2>
@@ -62,7 +62,7 @@ const Services = () => {
               </p>
             </div>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/CC.png' alt="welcome" />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Services = () => {
         <div className="container-fulid mt-3">
           <div className='row justify-content-around mt-3'>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/LC.png' alt="welcome" />
             </div>
             <div className='col-lg-7'>
               <h2 className='mb-2'>Logo Creation:</h2>
@@ -90,7 +90,7 @@ const Services = () => {
               </p>
             </div>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/WD.png' alt="welcome" />
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ const Services = () => {
         <div className="container-fulid mt-3">
           <div className='row justify-content-around mt-3'>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/SSC&M.png' alt="welcome" />
             </div>
             <div className='col-lg-7'>
               <h2 className='mb-2'>Shopify Store Creation & Management:</h2>
@@ -118,7 +118,7 @@ const Services = () => {
               </p>
             </div>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/IM.png' alt="welcome" />
             </div>
           </div>
         </div>
@@ -127,39 +127,11 @@ const Services = () => {
         <div className="container-fulid mt-3">
           <div className='row justify-content-around mt-3'>
             <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
+              <img src='/assets/images/EM.png' alt="welcome" />
             </div>
             <div className='col-lg-7'>
               <h2 className='mb-2'>Email Marketing:</h2>
               <p className='fs-5'>Reach your customers directly with personalized email marketing campaigns. From crafting engaging content to automating email sequences, we help you nurture leads, boost sales, and build lasting relationships. Our data-driven approach ensures that each campaign delivers the right message to the right audience.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container mb-5">
-        <div className="container-fulid mt-5">
-          <div className='row justify-content-around mt-3'>
-            <div className='col-lg-7'>
-              <h2 className='mb-2'>Conversion Rate Optimization (CRO):</h2>
-              <p className='fs-5'>Turn visitors into customers with our Conversion Rate Optimization services. We analyze user behavior and website performance to identify opportunities for improving your site’s conversion rates. Through A/B testing, user experience enhancements, and targeted adjustments, we help boost your sales and lead generation.
-              </p>
-            </div>
-            <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container mb-5">
-        <div className="container-fulid mt-3">
-          <div className='row justify-content-around mt-3'>
-            <div className='col-lg-3'>
-              <img src='/assets/images/welcome.jpeg' alt="welcome" />
-            </div>
-            <div className='col-lg-7'>
-              <h2 className='mb-2'>Online Reputation Management (ORM):</h2>
-              <p className='fs-5'>Safeguard your brand’s reputation online. Our ORM services monitor, manage, and improve how your business is perceived across the web. Whether it’s handling negative reviews or promoting positive feedback, we help you build trust and credibility with your audience.
               </p>
             </div>
           </div>
