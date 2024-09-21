@@ -286,8 +286,7 @@ header
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  float: left;
+
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
