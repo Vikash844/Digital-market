@@ -13,7 +13,7 @@ const Footer = () => {
                             </div>
                             <div className="d-flex">
                                 <div className="ms-4">
-                                    <a href="/" target="_blank">
+                                    <a href="https://x.com/clickgenius_dm" target="_blank">
                                         <i className="fa-brands fa-x-twitter text-white fa-lg"></i>
                                     </a>
                                 </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                                     </a>
                                 </div>
                                 <div className="ms-4">
-                                    <a href="/" target="_blank">
+                                    <a href="https://www.instagram.com/clickgenius_dm?igsh=MWZyY3RqYWx0N2JmbA==" target="_blank">
                                         <i className="fa-brands fa-instagram text-white fa-lg"></i>
                                     </a>
                                 </div>
