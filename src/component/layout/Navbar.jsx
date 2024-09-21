@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <header className="header-area wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container justify-content-between">
+        <div className="container">
           {/* Logo */}
           <div className="navbar-brand">
             <Link className="logo" to="/" onClick={closeMenu}>
