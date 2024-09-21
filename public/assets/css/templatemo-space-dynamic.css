@@ -835,8 +835,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
-  position: relative;
+  padding: 100px 0px 100px 0px;
   overflow: hidden;
 }
 
@@ -1080,7 +1079,6 @@ Portfolio
 */
 
 .our-portfolio {
-  padding-top: 120px;
   margin-top: 0px;
 }
 
@@ -1288,7 +1286,7 @@ contact
 */
 
 .contact-us {
-  padding: 160px 0px;
+  padding: 60px 0px;
   background-image: url(../images/contact-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1303,7 +1301,6 @@ contact
 
 .contact-us .section-heading p {
   color: #fff;
-  margin-top: 30px;
 }
 
 .phone-info {

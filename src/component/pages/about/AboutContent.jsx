@@ -19,7 +19,7 @@ const AboutContent = () => {
                             </p>
                         </div>
                         <div className='col-lg-3'>
-                            <img src='/assets/images/welcome.jpeg' alt="welcome" />
+                            <img src='/assets/images/about.png' alt="welcome" />
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const AboutContent = () => {
                             </p>
                         </div>
                         <div className='col-lg-3'>
-                            <img src='/assets/images/welcome.jpeg' alt="welcome" />
+                            <img src='/assets/images/mission.png' alt="welcome" />
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ const AboutContent = () => {
                     </div>
                     <div className='row justify-content-around mt-3'>
                     <div className='col-lg-3'>
-                            <img src='/assets/images/welcome.jpeg' alt="welcome" />
+                            <img src='/assets/images/choose.png' alt="welcome" />
                         </div>
                         <div className='col-lg-7'>
                             <p className='fs-5'>We are not just another digital marketing agency; we are your growth partners. Our team’s expertise, combined with our commitment to innovation and results, ensures that your business will not only keep pace with the digital world but lead it.
@@ -125,7 +125,7 @@ const AboutContent = () => {
                             </p>
                         </div>
                         <div className='col-lg-3'>
-                            <img src='/assets/images/welcome.jpeg' alt="welcome" />
+                            <img src='/assets/images/touch.png' alt="welcome" />
                         </div>
                     </div>
                 </div>

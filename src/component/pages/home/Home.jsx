@@ -11,7 +11,7 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-lg-6 align-self-center">
                                     <div className="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                                        <h5 className='fs-1'>Welcome to Click Genius</h5>
+                                        <h2 className='fs-1'>Welcome to <em>Click</em> <span>Genius</span></h2>
                                         <h2>We Make <em>Digital Ideas</em> &amp; <span>SEO</span> Marketing</h2>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
-                            <div className="section-heading  wow bounceIn my-5" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div className="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <h2>Welcome To <em>Click</em> <span>Genius</span></h2>
                             </div>
                         </div>
